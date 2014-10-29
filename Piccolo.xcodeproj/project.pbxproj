@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		890D7A9C1A019014001357FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D7A9B1A019014001357FE /* AppDelegate.swift */; };
+		890D7A9E1A019014001357FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890D7A9D1A019014001357FE /* Images.xcassets */; };
+		890D7AA11A019014001357FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 890D7A9F1A019014001357FE /* MainMenu.xib */; };
+		890D7AAD1A019014001357FE /* PiccoloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D7AAC1A019014001357FE /* PiccoloTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		890D7AA71A019014001357FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890D7A8E1A019014001357FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890D7A951A019014001357FE;
+			remoteInfo = Piccolo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		890D7A961A019014001357FE /* Piccolo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Piccolo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		890D7A9A1A019014001357FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890D7A9B1A019014001357FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		890D7A9D1A019014001357FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		890D7AA01A019014001357FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		890D7AA61A019014001357FE /* PiccoloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiccoloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		890D7AAB1A019014001357FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890D7AAC1A019014001357FE /* PiccoloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiccoloTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		890D7A931A019014001357FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890D7AA31A019014001357FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		890D7A8D1A019014001357FE = {
+			isa = PBXGroup;
+			children = (
+				890D7A981A019014001357FE /* Piccolo */,
+				890D7AA91A019014001357FE /* PiccoloTests */,
+				890D7A971A019014001357FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		890D7A971A019014001357FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				890D7A961A019014001357FE /* Piccolo.app */,
+				890D7AA61A019014001357FE /* PiccoloTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		890D7A981A019014001357FE /* Piccolo */ = {
+			isa = PBXGroup;
+			children = (
+				890D7A9B1A019014001357FE /* AppDelegate.swift */,
+				890D7A9D1A019014001357FE /* Images.xcassets */,
+				890D7A9F1A019014001357FE /* MainMenu.xib */,
+				890D7A991A019014001357FE /* Supporting Files */,
+			);
+			path = Piccolo;
+			sourceTree = "<group>";
+		};
+		890D7A991A019014001357FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				890D7A9A1A019014001357FE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		890D7AA91A019014001357FE /* PiccoloTests */ = {
+			isa = PBXGroup;
+			children = (
+				890D7AAC1A019014001357FE /* PiccoloTests.swift */,
+				890D7AAA1A019014001357FE /* Supporting Files */,
+			);
+			path = PiccoloTests;
+			sourceTree = "<group>";
+		};
+		890D7AAA1A019014001357FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				890D7AAB1A019014001357FE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		890D7A951A019014001357FE /* Piccolo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890D7AB01A019014001357FE /* Build configuration list for PBXNativeTarget "Piccolo" */;
+			buildPhases = (
+				890D7A921A019014001357FE /* Sources */,
+				890D7A931A019014001357FE /* Frameworks */,
+				890D7A941A019014001357FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Piccolo;
+			productName = Piccolo;
+			productReference = 890D7A961A019014001357FE /* Piccolo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		890D7AA51A019014001357FE /* PiccoloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890D7AB31A019014001357FE /* Build configuration list for PBXNativeTarget "PiccoloTests" */;
+			buildPhases = (
+				890D7AA21A019014001357FE /* Sources */,
+				890D7AA31A019014001357FE /* Frameworks */,
+				890D7AA41A019014001357FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890D7AA81A019014001357FE /* PBXTargetDependency */,
+			);
+			name = PiccoloTests;
+			productName = PiccoloTests;
+			productReference = 890D7AA61A019014001357FE /* PiccoloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		890D7A8E1A019014001357FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Kieran Wynn";
+				TargetAttributes = {
+					890D7A951A019014001357FE = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					890D7AA51A019014001357FE = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 890D7A951A019014001357FE;
+					};
+				};
+			};
+			buildConfigurationList = 890D7A911A019014001357FE /* Build configuration list for PBXProject "Piccolo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 890D7A8D1A019014001357FE;
+			productRefGroup = 890D7A971A019014001357FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				890D7A951A019014001357FE /* Piccolo */,
+				890D7AA51A019014001357FE /* PiccoloTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		890D7A941A019014001357FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890D7A9E1A019014001357FE /* Images.xcassets in Resources */,
+				890D7AA11A019014001357FE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890D7AA41A019014001357FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		890D7A921A019014001357FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890D7A9C1A019014001357FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890D7AA21A019014001357FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890D7AAD1A019014001357FE /* PiccoloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		890D7AA81A019014001357FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890D7A951A019014001357FE /* Piccolo */;
+			targetProxy = 890D7AA71A019014001357FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		890D7A9F1A019014001357FE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				890D7AA01A019014001357FE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		890D7AAE1A019014001357FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		890D7AAF1A019014001357FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		890D7AB11A019014001357FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Piccolo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		890D7AB21A019014001357FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Piccolo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		890D7AB41A019014001357FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PiccoloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piccolo.app/Contents/MacOS/Piccolo";
+			};
+			name = Debug;
+		};
+		890D7AB51A019014001357FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PiccoloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piccolo.app/Contents/MacOS/Piccolo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		890D7A911A019014001357FE /* Build configuration list for PBXProject "Piccolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890D7AAE1A019014001357FE /* Debug */,
+				890D7AAF1A019014001357FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890D7AB01A019014001357FE /* Build configuration list for PBXNativeTarget "Piccolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890D7AB11A019014001357FE /* Debug */,
+				890D7AB21A019014001357FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		890D7AB31A019014001357FE /* Build configuration list for PBXNativeTarget "PiccoloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890D7AB41A019014001357FE /* Debug */,
+				890D7AB51A019014001357FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 890D7A8E1A019014001357FE /* Project object */;
+}
