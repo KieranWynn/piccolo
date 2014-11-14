@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		890D7A9C1A019014001357FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D7A9B1A019014001357FE /* AppDelegate.swift */; };
-		890D7A9E1A019014001357FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890D7A9D1A019014001357FE /* Images.xcassets */; };
 		890D7AA11A019014001357FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 890D7A9F1A019014001357FE /* MainMenu.xib */; };
 		890D7AAD1A019014001357FE /* PiccoloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D7AAC1A019014001357FE /* PiccoloTests.swift */; };
+		89C5C4911A0C385F0071608C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C5C4901A0C385F0071608C /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,11 +27,11 @@
 		890D7A961A019014001357FE /* Piccolo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Piccolo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		890D7A9A1A019014001357FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		890D7A9B1A019014001357FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		890D7A9D1A019014001357FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		890D7AA01A019014001357FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		890D7AA61A019014001357FE /* PiccoloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiccoloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		890D7AAB1A019014001357FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		890D7AAC1A019014001357FE /* PiccoloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiccoloTests.swift; sourceTree = "<group>"; };
+		89C5C4901A0C385F0071608C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +73,8 @@
 		890D7A981A019014001357FE /* Piccolo */ = {
 			isa = PBXGroup;
 			children = (
+				89C5C4901A0C385F0071608C /* Images.xcassets */,
 				890D7A9B1A019014001357FE /* AppDelegate.swift */,
-				890D7A9D1A019014001357FE /* Images.xcassets */,
 				890D7A9F1A019014001357FE /* MainMenu.xib */,
 				890D7A991A019014001357FE /* Supporting Files */,
 			);
@@ -186,8 +186,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				890D7A9E1A019014001357FE /* Images.xcassets in Resources */,
 				890D7AA11A019014001357FE /* MainMenu.xib in Resources */,
+				89C5C4911A0C385F0071608C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +393,7 @@
 				890D7AB21A019014001357FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		890D7AB31A019014001357FE /* Build configuration list for PBXNativeTarget "PiccoloTests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +402,7 @@
 				890D7AB51A019014001357FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
