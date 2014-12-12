@@ -11,6 +11,7 @@
 		890D7AA11A019014001357FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 890D7A9F1A019014001357FE /* MainMenu.xib */; };
 		890D7AAD1A019014001357FE /* PiccoloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D7AAC1A019014001357FE /* PiccoloTests.swift */; };
 		89C5C4911A0C385F0071608C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C5C4901A0C385F0071608C /* Images.xcassets */; };
+		89C5C4931A15B94A0071608C /* StatusItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C4921A15B9490071608C /* StatusItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		890D7AAB1A019014001357FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		890D7AAC1A019014001357FE /* PiccoloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiccoloTests.swift; sourceTree = "<group>"; };
 		89C5C4901A0C385F0071608C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		89C5C4921A15B9490071608C /* StatusItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				890D7A9B1A019014001357FE /* AppDelegate.swift */,
 				890D7A9F1A019014001357FE /* MainMenu.xib */,
 				890D7A991A019014001357FE /* Supporting Files */,
+				89C5C4921A15B9490071608C /* StatusItemView.swift */,
 			);
 			path = Piccolo;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				890D7A9C1A019014001357FE /* AppDelegate.swift in Sources */,
+				89C5C4931A15B94A0071608C /* StatusItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

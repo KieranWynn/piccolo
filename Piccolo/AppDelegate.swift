@@ -30,6 +30,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(-2.0)
         statusButton = statusItem.button
+        //statusItem.button
         
         statusButton.toolTip = "Piccolo \nClick to prevent sleep. \nRight click for options."
         statusButton.image = inactiveIcon
@@ -38,6 +39,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         //statusButton.menuForEvent(<#event: NSEvent#>)
     
         //statusItem.popUpStatusItemMenu(<#menu: NSMenu#>)
+        //statusButton.sendActionOn((1 << 1) | (1 << 3))
+        statusItem.menu = statusMenu
         
         //let processID = NSProcessInfo().processIdentifier
         //println(" -disu -w " + String(processID))
@@ -88,6 +91,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     @IBAction func setTimeout(sender: NSMenuItem) {
         println(sender.value())
+    }
+    @IBAction func quitPressed(sender: AnyObject) {
+        if (task.running) {
+            task.terminate()
+        }
+        NSApplication.sharedApplication().terminate(self)
     }
 
 }
