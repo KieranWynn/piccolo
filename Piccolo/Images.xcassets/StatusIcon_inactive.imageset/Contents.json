@@ -2,21 +2,23 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "PiccoloStatusIcon_Inactive.pdf"
-    },
-    {
-      "idiom" : "universal",
       "scale" : "1x",
       "filename" : "PiccoloStatusIcon_Inactive_1x.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "PiccoloStatusIcon_Inactive_2x.pdf"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "PiccoloStatusIcon_Inactive_3x.png"
+      "filename" : "PiccoloStatusIcon_Inactive_3x.pdf"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "PiccoloStatusIcon_Inactive.pdf",
+      "unassigned" : true
     }
   ],
   "info" : {

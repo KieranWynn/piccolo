@@ -10,6 +10,7 @@
 		890D7A9C1A019014001357FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D7A9B1A019014001357FE /* AppDelegate.swift */; };
 		890D7AA11A019014001357FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 890D7A9F1A019014001357FE /* MainMenu.xib */; };
 		890D7AAD1A019014001357FE /* PiccoloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890D7AAC1A019014001357FE /* PiccoloTests.swift */; };
+		898AF4921A3C1FB6002172D2 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 898AF4911A3C1FB6002172D2 /* Readme.md */; };
 		89C5C4911A0C385F0071608C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C5C4901A0C385F0071608C /* Images.xcassets */; };
 		89C5C4931A15B94A0071608C /* StatusItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5C4921A15B9490071608C /* StatusItemView.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		890D7AA61A019014001357FE /* PiccoloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiccoloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		890D7AAB1A019014001357FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		890D7AAC1A019014001357FE /* PiccoloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiccoloTests.swift; sourceTree = "<group>"; };
+		898AF4911A3C1FB6002172D2 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		89C5C4901A0C385F0071608C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		89C5C4921A15B9490071608C /* StatusItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +59,7 @@
 		890D7A8D1A019014001357FE = {
 			isa = PBXGroup;
 			children = (
+				898AF4911A3C1FB6002172D2 /* Readme.md */,
 				890D7A981A019014001357FE /* Piccolo */,
 				890D7AA91A019014001357FE /* PiccoloTests */,
 				890D7A971A019014001357FE /* Products */,
@@ -210,6 +213,7 @@
 			files = (
 				890D7A9C1A019014001357FE /* AppDelegate.swift in Sources */,
 				89C5C4931A15B94A0071608C /* StatusItemView.swift in Sources */,
+				898AF4921A3C1FB6002172D2 /* Readme.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

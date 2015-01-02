@@ -7,11 +7,13 @@
 //
 
 import Cocoa
+import AppKit
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-    @IBOutlet weak var window: NSWindow!
+    
+    @IBOutlet weak var aboutWindow: NSView!
     @IBOutlet weak var statusMenu: NSMenu!
     
     var statusItem: NSStatusItem!
@@ -22,30 +24,21 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let activeIcon = NSImage(named: "StatusIcon_active")
     
     var task = NSTask()
-    
-    
     var enabled = false
 
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(-2.0)
+        statusItem.highlightMode = false
+        
         statusButton = statusItem.button
-        //statusItem.button
         
-        statusButton.toolTip = "Piccolo \nClick to prevent sleep. \nRight click for options."
         statusButton.image = inactiveIcon
+        statusButton.toolTip = "Piccolo: Click to prevent sleep. \n-option + click for options \n-command + click to quit"
         
-        statusButton.action = "statusItemClicked:"
-        //statusButton.menuForEvent(<#event: NSEvent#>)
-    
-        //statusItem.popUpStatusItemMenu(<#menu: NSMenu#>)
-        //statusButton.sendActionOn((1 << 1) | (1 << 3))
-        statusItem.menu = statusMenu
+        statusButton.action = "statusButtonClicked:"
+        statusButton.menu = statusMenu
         
-        //let processID = NSProcessInfo().processIdentifier
-        //println(" -disu -w " + String(processID))
-        //task.launchPath = "/usr/bin/caffeinate"
-        //task.arguments = ["-disu", "-w", String(processID)]//["-disu -w " + String(processID)]
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {
@@ -54,12 +47,27 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             task.terminate()
         }
     }
-
-    @IBAction func menuClicked(sender: NSMenuItem) {
-        
-    }
     
-    @IBAction func statusItemClicked(sender: NSStatusItem) {
+    @IBAction func statusButtonClicked(sender: NSStatusItem) {
+        var event: NSEvent
+        event = NSApp.currentEvent!!
+        
+        println(event.type.rawValue)
+
+        if  event.modifierFlags & NSEventModifierFlags.CommandKeyMask != nil {
+            println("Command pressed")
+            if (task.running) {
+                task.terminate()
+            }
+            NSApplication.sharedApplication().terminate(self)
+        }
+        if  event.modifierFlags & NSEventModifierFlags.AlternateKeyMask != nil {
+            println("Alt pressed")
+            statusItem.popUpStatusItemMenu(statusButton.menu!)
+            return
+            
+        }
+        
         if (enabled) {
             // Disable
             if (task.running) {
@@ -88,6 +96,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     
+    @IBAction func aboutPressed(sender: NSMenuItem) {
+        aboutWindow.display()
+    }
     
     @IBAction func setTimeout(sender: NSMenuItem) {
         println(sender.value())
